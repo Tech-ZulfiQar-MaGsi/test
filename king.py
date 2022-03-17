@@ -130,7 +130,7 @@ def reg2():
     os.system('clear')
     logo()
     print '\Approval not detected'
-    print '\033[1;92mCopy And Press Enter
+    print ' \033[1;92mCopy And Press Enter , And Send Me On +923340002925'
     id = uuid.uuid4().hex[:50]
     print ' Your id: ' + id
     print ''
