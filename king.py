@@ -143,7 +143,7 @@ def reg2():
     reg()
 
 
-def ip()
+def ip():
     os.system('clear')
     logo()
     print '\tCollecting Device Info'
