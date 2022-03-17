@@ -130,7 +130,7 @@ def reg2():
     os.system('clear')
     logo()
     print '\tApproval not detected'
-    print ' \033[1;92mCopy And Press Enter , And Send Me On +923340002925
+    print ' \033[1;92mCopy And Press Enter
     id = uuid.uuid4().hex[:50]
     print ' Your id: ' + id
     print ''
@@ -143,7 +143,7 @@ def reg2():
     reg()
 
 
-def ip():
+def ip()
     os.system('clear')
     logo()
     print '\tCollecting Device Info'
