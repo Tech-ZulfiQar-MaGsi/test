@@ -129,8 +129,8 @@ def reg():
 def reg2():
     os.system('clear')
     logo()
-    print '\tApproval not detected'
-    print ' \033[1;92mCopy And Press Enter
+    print '\Approval not detected'
+    print '\033[1;92mCopy And Press Enter
     id = uuid.uuid4().hex[:50]
     print ' Your id: ' + id
     print ''
